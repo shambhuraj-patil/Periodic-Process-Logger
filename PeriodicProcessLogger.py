@@ -21,8 +21,8 @@ def is_connected():
 
 # Function to send the log file via email
 def MailSender(filename, time):
-    fromaddr = "27.sspatil@gmail.com" # Sender's email address
-    toaddr = "shambhurajpatil27@gmail.com" # Recipient's email address
+    fromaddr = "__________@gmail.com" # Sender's email address
+    toaddr = "__________@gmail.com" # Recipient's email address
     msg = MIMEMultipart()
     msg['From'] = fromaddr
     msg['To'] = toaddr
@@ -35,7 +35,7 @@ def MailSender(filename, time):
 
          This is auto generated mail.
          Thanks & Regards,
-         Shambhuraj Patil
+         xyz  # Replace with your name 
         """ 
     # Subject of the email
     Subject = f"Process log generated at: {time}"
@@ -53,7 +53,7 @@ def MailSender(filename, time):
     # Setup the SMTP server for sending the email
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login(fromaddr, 'zdzcizmzonoibaqu')
+    s.login(fromaddr, '**********') # Sender's email address & Password
 
     # Convert the message to a string and send the email
     text = msg.as_string()
