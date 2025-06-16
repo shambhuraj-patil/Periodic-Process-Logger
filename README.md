@@ -54,6 +54,7 @@ Process log generated at: Wed Jun 11 14:20:33 2025
 Hello receiver_email@gmail.com,
 
 Please find the attached document containing the log of running processes.
+
 Log file created at: Wed Jun 11 14:20:33 2025
 
 This is auto generated mail.
