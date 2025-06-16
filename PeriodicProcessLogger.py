@@ -30,7 +30,7 @@ def MailSender(filename, time):
     # Email body content
     body = f"""
          Hello {toaddr},
-         Please find attached document which contains log of Running process
+         Please find the attached document containing the log of running processes.
          Log file created at : {time}
 
          This is auto generated mail.
