@@ -67,6 +67,7 @@ xyz
 
 ## ⚠️ Notes
 -✅ Use environment variables or external config files to store sensitive data like passwords.
+
 -✅ Make sure the machine running the script has Python 3.x installed and necessary libraries:
 
 ```bash
