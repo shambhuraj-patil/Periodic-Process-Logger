@@ -38,7 +38,7 @@ This Python script monitors and logs all running processes on a system at schedu
 
 ## 🚀 Running the Script
 
-Run the script using:
+-Run the script using:
 
 ```bash
 python your_script_name.py
