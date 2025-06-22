@@ -113,5 +113,3 @@ def main():
         time.sleep(1) # Sleep for 1 second before checking again
 if __name__ == "__main__":
     main()
-
-
